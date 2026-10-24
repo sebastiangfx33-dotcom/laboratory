@@ -5,8 +5,8 @@
  * - Todos los proyectos de demostración están etiquetados explícitamente como
  *   "Campaña conceptual" (Concept Campaign).
  * - No se inventan clientes reales, cifras de ventas, testimonios ni resultados.
- * - Preparado para incorporar imágenes definitivas en `assets/images/` y
- *   videos verticales (9:16) y horizontales (16:9) mediante `videoSrc`.
+ * - Incorpora fotografías de estudio en `assets/images/` listas para despliegue
+ *   en GitHub + Vercel y soporte para videos verticales (9:16) y horizontales (16:9).
  */
 
 window.LABORATORY_PORTFOLIO = [
@@ -18,7 +18,7 @@ window.LABORATORY_PORTFOLIO = [
     aspectRatio: "vertical",
     videoAspect: "9:16",
     videoSrc: "",
-    imageSrc: "",
+    imageSrc: "assets/images/portfolio-belleza.jpg",
     visualTheme: "belleza-serum",
     imageAlt: "Frasco de sérum botánico emergiendo sobre ondas de agua oscura con iluminación azul eléctrico",
     concept: "Hidratación estudiada desde la física de la luz y el movimiento microscópico del agua.",
@@ -38,7 +38,7 @@ window.LABORATORY_PORTFOLIO = [
     aspectRatio: "horizontal",
     videoAspect: "16:9",
     videoSrc: "",
-    imageSrc: "",
+    imageSrc: "assets/images/portfolio-moda.jpg",
     visualTheme: "moda-editorial",
     imageAlt: "Composición editorial de sastrería contemporánea en estudio oscuro con luz de recorte azul",
     concept: "El abrigo como estructura arquitectónica en diálogo con la sombra y el viento controlado.",
@@ -58,7 +58,7 @@ window.LABORATORY_PORTFOLIO = [
     aspectRatio: "horizontal",
     videoAspect: "16:9",
     videoSrc: "",
-    imageSrc: "",
+    imageSrc: "assets/images/portfolio-calzado.jpg",
     visualTheme: "calzado-escultural",
     imageAlt: "Calzado de diseño escultural sobre monolito de pizarra negra con reflejos cian",
     concept: "Descomponer la ingeniería de una suela técnica mediante iluminación escultórica y cámara en levitación.",
@@ -78,7 +78,7 @@ window.LABORATORY_PORTFOLIO = [
     aspectRatio: "vertical",
     videoAspect: "9:16",
     videoSrc: "",
-    imageSrc: "",
+    imageSrc: "assets/images/hero-perfume.jpg",
     visualTheme: "productos-perfume",
     imageAlt: "Frasco de perfume de lujo sobre superficie negra reflectante con destellos azul eléctrico y cian",
     concept: "Hacer visible una fragancia a través del comportamiento de la luz dentro del cristal tallado.",
@@ -98,7 +98,7 @@ window.LABORATORY_PORTFOLIO = [
     aspectRatio: "horizontal",
     videoAspect: "16:9",
     videoSrc: "",
-    imageSrc: "",
+    imageSrc: "assets/images/portfolio-cronografo.jpg",
     visualTheme: "productos-cronografo",
     imageAlt: "Cronógrafo de precisión y prismas de cristal bajo un haz de luz fría",
     concept: "La relación entre óptica, metal cepillado y fibra de carbono vista a milímetros de distancia.",
@@ -118,7 +118,7 @@ window.LABORATORY_PORTFOLIO = [
     aspectRatio: "vertical",
     videoAspect: "9:16",
     videoSrc: "",
-    imageSrc: "",
+    imageSrc: "assets/images/portfolio-belleza.jpg",
     visualTheme: "belleza-pigmento",
     imageAlt: "Estudio visual de pigmentos y texturas cosméticas sobre cristal negro",
     concept: "La textura del pigmento puro como obra plástica antes de tocar la piel.",

@@ -620,6 +620,12 @@ textarea {
   transition: transform 0.75s var(--ease-editorial);
 }
 
+.portfolio-media-wrap img {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+}
+
 .portfolio-item:hover .portfolio-media-wrap img,
 .portfolio-item:hover .portfolio-media-wrap svg {
   transform: scale(1.03);

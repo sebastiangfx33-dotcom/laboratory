@@ -397,7 +397,7 @@ document.addEventListener("DOMContentLoaded", () => {
       );
 
       const mediaMarkup = project.imageSrc
-        ? `<img src="${project.imageSrc}" alt="${project.imageAlt}" loading="lazy" width="800" height="600" />`
+        ? `${getStudioVisualPlaceholder(project.visualTheme)}<img src="${project.imageSrc}" alt="${project.imageAlt}" loading="lazy" width="800" height="600" onerror="this.style.display='none'" />`
         : getStudioVisualPlaceholder(project.visualTheme);
 
       article.innerHTML = `
@@ -494,7 +494,7 @@ document.addEventListener("DOMContentLoaded", () => {
       `;
     } else if (project.imageSrc) {
       modalMediaContainer.innerHTML = `
-        <img src="${project.imageSrc}" alt="${project.imageAlt}" style="max-height: 72vh; width: 100%; object-fit: cover;" />
+        <img src="${project.imageSrc}" alt="${project.imageAlt}" style="max-height: 72vh; width: 100%; object-fit: cover;" onerror="this.style.display='none'" />
       `;
     } else {
       modalMediaContainer.innerHTML = getStudioVisualPlaceholder(project.visualTheme);
